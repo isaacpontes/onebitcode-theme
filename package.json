@@ -1,6 +1,6 @@
 {
-  "name": "onebitcode",
-  "displayName": "onebitcode",
+  "name": "rockstar-theme",
+  "displayName": "Rockstar, by OneBitCode",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -9,13 +9,18 @@
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "publisher": "OneBitCode",
   "contributes": {
     "themes": [
       {
-        "label": "OneBitCode",
+        "label": "Rockstar",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneBitCode-color-theme.json"
+        "path": "./themes/Rockstar-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "url": "https://github.com/isaacpontes/onebitcode-theme"
   }
 }
